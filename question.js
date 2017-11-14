@@ -3,7 +3,7 @@
 class Question {
   constructor(question) {
     // this.content: question
-
+      }
   }
   static All() {
     return Question._All;
