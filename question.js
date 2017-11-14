@@ -1,5 +1,6 @@
 'use strict';
 
 class Question {
-  static _All: []
 }
+
+Question._All = []
