@@ -2,9 +2,8 @@
 
 class Question {
   constructor(question){
-    this.question: question;
-
-    save();
+    this.question: question,
+    save()
   }
   static All() {
     return Question._All;
