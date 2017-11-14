@@ -18,10 +18,10 @@ class Question {
    this.constructor._All.push(this)
  }
 
- // static .Find(index) {
- //   return this.All().filter(function(question){
- //         return question.i === email;
- //   }
+ static .Find(1) {
+   return this.All().filter(function(question){
+         return question.i === 1;
+   }
 
 }
 
