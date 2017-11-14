@@ -1,6 +1,11 @@
 'use strict';
 
 class Question {
+  constructor(question){
+    this.question: question;
+
+    save(this);
+  }
   static All() {
     return Question._All;
   }
