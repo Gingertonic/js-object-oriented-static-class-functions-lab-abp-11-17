@@ -18,9 +18,9 @@ class Question {
    this.constructor._All.push(this)
  }
 
- static .Find(1) {
+ static Find(id) {
    return this.All().filter(function(question){
-         return question.i === 1;
+         return question.id === id;
    }
 
 }
