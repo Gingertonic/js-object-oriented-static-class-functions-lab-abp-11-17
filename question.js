@@ -9,9 +9,12 @@ class Question {
     return Question._All;
   }
 
-  save() {
-    Question._All.push(this);
-  }
+  // save() {
+  //   Question._All.push(this);
+  // }
+
+  save(){
+   this.constructor._All.push(this)
 }
 
 Question._All = [];
