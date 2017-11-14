@@ -1,7 +1,7 @@
 'use strict';
 
 class Question {
-  
+
   }
   static All() {
     return Question._All;
@@ -11,7 +11,7 @@ class Question {
     Question._All.push(this);
   }
   constructor(question){
-    this.content: question
+    // this.content: question
 }
 
 Question._All = [];
