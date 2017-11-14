@@ -12,6 +12,7 @@ class Question {
   }
   constructor(question){
     // this.content: question
+  }
 }
 
 Question._All = [];
