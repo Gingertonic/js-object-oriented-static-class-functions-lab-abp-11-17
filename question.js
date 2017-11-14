@@ -4,7 +4,7 @@ class Question {
   constructor(question){
     this.question: question;
 
-    save(this);
+    save();
   }
   static All() {
     return Question._All;
