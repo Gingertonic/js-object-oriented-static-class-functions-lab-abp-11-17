@@ -1,8 +1,8 @@
 'use strict';
 
 class Question {
-  constructor(content){
-    this.content: content
+  constructor(question){
+    this.content: question
     // save(this)
   }
   static All() {
