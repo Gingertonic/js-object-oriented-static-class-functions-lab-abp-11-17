@@ -3,7 +3,7 @@
 class Question {
   constructor(question){
     this.question: question,
-    save(this)
+    // save(this)
   }
   static All() {
     return Question._All;
