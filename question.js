@@ -3,7 +3,7 @@
 class Question {
   constructor(question) {
     this.content = question
-    this.save() 
+    this.save()
   }
 
   static All() {
@@ -22,7 +22,7 @@ class Question {
  //   return this.All().filter(function(question){
  //         return question.i === email;
  //   }
- }
+
 }
 
 Question._All = [];
