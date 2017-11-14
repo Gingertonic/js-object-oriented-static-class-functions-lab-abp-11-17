@@ -4,7 +4,7 @@ class Question {
   constructor(question) {
     // this.content: question
   }
-  
+
   static All() {
     return Question._All;
   }
@@ -15,6 +15,7 @@ class Question {
 
   save(){
    this.constructor._All.push(this)
+ }
 }
 
 Question._All = [];
