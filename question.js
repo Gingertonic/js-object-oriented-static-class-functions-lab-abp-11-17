@@ -6,7 +6,7 @@ class Question {
   }
 
   save() {
-    _All.push(this);
+    Question._All.push(this);
   }
 }
 
