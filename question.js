@@ -20,7 +20,6 @@ class Question {
 
  static Find(id) {
    this.All()[id-1]
-       }
    }
 
 }
