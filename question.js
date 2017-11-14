@@ -17,6 +17,12 @@ class Question {
   save(){
    this.constructor._All.push(this)
  }
+
+ // static .Find(index) {
+ //   return this.All().filter(function(question){
+ //         return question.i === email;
+ //   }
+ }
 }
 
 Question._All = [];
