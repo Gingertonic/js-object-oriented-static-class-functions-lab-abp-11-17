@@ -2,7 +2,7 @@
 
 class Question {
   static All() {
-    return User._All
+    return Question._All
   }
 }
 
