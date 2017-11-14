@@ -19,8 +19,7 @@ class Question {
  }
 
  static Find(id) {
-   this.All().filter(function(question){
-         return this.question.id === id-1;
+   this.All()[id-1]
        }
    }
 
